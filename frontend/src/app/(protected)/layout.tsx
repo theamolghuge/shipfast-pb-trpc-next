@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { LINKS } from "~/shared/constants/links";
 import useAuth from "~/shared/hooks/auth/auth";
